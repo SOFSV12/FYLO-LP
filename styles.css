@@ -1,0 +1,55 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.curve {
+  background-image: url("images/bg-curve-desktop.svg");
+  height: 25vh;
+  background-repeat: no-repeat;
+}
+.content {
+  background-color: #f9f8fe;
+}
+.testimonial {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 16px;
+}
+.info {
+  display: flex;
+  align-items: center;
+}
+.account {
+  display: flex;
+  flex-direction: column;
+}
+
+span a {
+  text-decoration: none;
+  color: #409a89;
+}
+@media (max-width: 760px) {
+  .sect,
+  .sect2 {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .curve {
+    background-image: url("images/bg-curve-mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
